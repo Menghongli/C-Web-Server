@@ -1,9 +1,8 @@
 /*
- ** forking-web-server.c -- This is a command-line application which taked two command-line arguments- the name of a 
- ** file in the current working directory,and a port number, in that order. The file name must end with one of the 
- ** extensions listed in mime-types.tsv. E.g:
- **	
- ** forking-web-server hello.html 80
+ ** epoll-web-server.c 
+ ** 
+ ** Single Thread multiuser web Server
+ ** epoll-web-server [port]
  **
  */
 #include<stdlib.h>
